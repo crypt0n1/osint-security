@@ -22,7 +22,7 @@ sudo pip install python3
 
 sudo pip install phonenumbers
 
-git clone https://github/Crpt0n1c/osint-security
+git clone https://github.com/crypt0n1/osint-tool.git
 
 cd osint-security
 
