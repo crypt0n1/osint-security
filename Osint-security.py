@@ -36,11 +36,11 @@ $$ |  $$ |$$\   $$ |  $$ |  $$ |\$$$ |   $$ |       $$\   $$ |$$ |      $$ |  $$
                                                                                                                                     
                                                                                                                                     """)
     print("\033[35m-------------------------------------------------")
-    print(MAGENTA + "Autor  :   SECBOY")
+    print(MAGENTA + "Autor  :   Crpt0n1c")
     print("-------------------------------------------------")
-    print(MAGENTA + "Youtube   :   sec boy")
+    print(MAGENTA + "Youtube   :   Crypt0n1c py")
     print(MAGENTA + "-------------------------------------------------")
-    print(MAGENTA + "Telegram   :   @shitmAn000")
+    print(MAGENTA + "Telegram   :   @crypt0n1c000")
     print(MAGENTA + "-------------------------------------------------")
 
     print("1) ip tracker")
@@ -103,8 +103,8 @@ $$ |  $$ |$$\   $$ |  $$ |  $$ |\$$$ |   $$ |       $$\   $$ |$$ |      $$ |  $$
             system("clear")
         return osint()
     elif os == "4":
-        """Es un acortador tienes que poner un link para acortarlo con grabify y consuir la ip de la persona"""
-
+        print("Es un acortador tienes que poner un link para acortarlo con grabify y consuir la ip de la persona")
+        sleep(5)
         webbrowser.open_new_tab("https://grabify.link/")
         retu4 = input("Presione enter para salir")
 
