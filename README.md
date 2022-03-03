@@ -18,13 +18,9 @@ sudo apt install git
 
 sudo apt install pip
 
+sudo pip install python3
+
 sudo pip install phonenumbers
-
-sudo pip install markdown
-
-sudo pip install flask
-
-sudo pip install app
 
 git clone https://github/Crpt0n1c/osint-security
 
