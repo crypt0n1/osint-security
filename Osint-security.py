@@ -135,6 +135,8 @@ $$ |  $$ |$$\   $$ |  $$ |  $$ |\$$$ |   $$ |       $$\   $$ |$$ |      $$ |  $$
         
         print("para mas informacion del correo espere unos segundos")
         
+        sleep(7)
+        
         webbrowser.open_new_tab("https://whatismyipaddress.com/trace-email")
     
         retu6 = input("Presione enter para salir")
