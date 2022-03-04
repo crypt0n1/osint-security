@@ -122,15 +122,19 @@ $$ |  $$ |$$\   $$ |  $$ |  $$ |\$$$ |   $$ |       $$\   $$ |$$ |      $$ |  $$
         
     elif os == "6":
         user_input = str(input("Enter email: "))
+        
         print("Your original mail is: {}".format(user_input))
+        
         user_name = user_input[:user_input.index("@")]
+        
         domain_name = user_input[user_input.index("@") + 1 :]
+        
         print("Domain info: ")
+        
         print("Your username is: {}  |   Your mail provider is: {} ".format(user_name, domain_name))
-
-        CORREO = input("Presione ENTER para mas informacion del correo")
-
-    if CORREO == " ":
+        
+        print("para mas informacion del correo espere unos segundos")
+        
         webbrowser.open_new_tab("https://whatismyipaddress.com/trace-email")
     
         retu6 = input("Presione enter para salir")
