@@ -128,8 +128,8 @@ $$ |  $$ |$$\   $$ |  $$ |  $$ |\$$$ |   $$ |       $$\   $$ |$$ |      $$ |  $$
         print("Domain info: ")
         print("Your username is: {}  |   Your mail provider is: {} ".format(user_name, domain_name))
         correo = input("Para mas informacion del correo presione la Q")
-    if correo == "q":
-        webbrowser.open("https://whatismyipaddress.com/trace-email")
+    if correo == "Q":
+        webbrowser.open_new_tab("https://whatismyipaddress.com/trace-email")
     
         retu6 = input("Presione enter para salir")
 
